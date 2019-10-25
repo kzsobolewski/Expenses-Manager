@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ExpensesManager</string>
+    <string name="title_activity_main_page">MainPage</string>
+    <string name="title_home">Explenses</string>
+    <string name="title_dashboard">Charts</string>
+    <string name="title_notifications">Recipt reader</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
