@@ -7,8 +7,12 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.view.isVisible
 import androidx.navigation.Navigation
 import androidx.navigation.ui.setupWithNavController
+import com.google.android.material.floatingactionbutton.FloatingActionButton
+import kotlinx.android.synthetic.*
+import kotlinx.android.synthetic.main.activity_main_page.*
 import kotlinx.android.synthetic.main.fragment_bottom_nav_bar.*
 
 class BottomNavBarFragment : Fragment() {

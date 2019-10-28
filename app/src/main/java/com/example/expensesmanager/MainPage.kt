@@ -19,7 +19,7 @@ class MainPage : AppCompatActivity() {
         var navController = findNavController(R.id.main_nav_fragment)
         newEntryFab.setOnClickListener {
             navController.navigate(R.id.action_bottomNavBarFragment_to_addEntryFragment)
-            newEntryFab.isVisible = false
+//            newEntryFab.hide()
         }
     }
 

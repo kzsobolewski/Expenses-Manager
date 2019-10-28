@@ -15,7 +15,15 @@
         android:id="@+id/navigation_charts"
         android:name="com.example.expensesmanager.ui.dashboard.DashboardFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_charts" />
+        tools:layout="@layout/fragment_charts" >
+        <action
+            android:id="@+id/action_navigation_charts_to_navigation_reader"
+            app:destination="@id/navigation_reader"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_in_right" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_reader"
