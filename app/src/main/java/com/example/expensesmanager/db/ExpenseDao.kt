@@ -10,11 +10,14 @@ import androidx.room.Query
 interface ExpenseDao{
 
     @Query("SELECT * FROM Expense_table")
-    fun getAllUsers(): LiveData<List<Expense>>
+    fun getAll(): LiveData<List<Expense>>
 
-//    @Insert
-//    fun insertEntry(amount: Double, isSpent: Boolean)
-//
-//    @Delete
-//    fun deleteEntry(explense: Expense)
+    @Insert
+    fun insert(expense: Expense)
+
+    @Delete
+    fun delete(explense: Expense)
+
+    @Query("DELETE FROM Expense_table")
+    fun deleteAll()
 }
