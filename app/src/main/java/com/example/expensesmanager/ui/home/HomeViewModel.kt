@@ -1,14 +1,24 @@
 package com.example.expensesmanager.ui.home
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
+import android.app.Application
+import androidx.lifecycle.*
+import com.example.expensesmanager.db.Expense
+import com.example.expensesmanager.db.ExpenseRepository
+import com.example.expensesmanager.db.ExpensesDB
+import kotlinx.coroutines.launch
 
-class HomeViewModel : ViewModel() {
+class HomeViewModel(application: Application) : AndroidViewModel(application) {
 
-    private val _text = MutableLiveData<String>().apply {
-        value = "This is home Fragment"
+    private val repository: ExpenseRepository
+    val allExpenses: LiveData<List<Expense>>
+
+    init {
+        val expenseDao = ExpensesDB.getDatabase(application).expenseDao
+        repository = ExpenseRepository(expenseDao)
+        allExpenses = repository.allExpenses
     }
-    val text: LiveData<String> = _text
 
+    fun insert(expense: Expense) = viewModelScope.launch {
+        repository.insert(expense)
+    }
 }

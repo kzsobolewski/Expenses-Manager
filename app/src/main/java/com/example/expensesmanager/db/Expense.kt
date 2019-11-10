@@ -8,7 +8,7 @@ import java.sql.Timestamp
 data class Expense(
     @PrimaryKey
     val id: Int,
-    val amount: Double,
+    val amount: Float,
     val spent: Boolean,
     val time: Float
 )
