@@ -13,7 +13,7 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
     val allExpenses: LiveData<List<Expense>>
 
     init {
-        val expenseDao = ExpensesDB.getDatabase(application).expenseDao
+        val expenseDao = ExpensesDB.getDatabase(application, viewModelScope).expenseDao()
         repository = ExpenseRepository(expenseDao)
         allExpenses = repository.allExpenses
     }
