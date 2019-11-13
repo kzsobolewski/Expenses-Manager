@@ -21,12 +21,13 @@ class RecyclerActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recycler)
 
+        homeViewModel = ViewModelProviders.of(this).get(HomeViewModel::class.java)
+
         val recyclerView: RecyclerView = findViewById(R.id.recyclerview)
         val adapter = ExpenseListAdapter(this)
         recyclerView.adapter = adapter
         recyclerView.layoutManager = LinearLayoutManager(this)
 
-        homeViewModel = ViewModelProviders.of(this).get(HomeViewModel::class.java)
 
         homeViewModel.allExpenses.observe(this, Observer { expenses ->
             expenses?.let{adapter.setExpenses(it)}
