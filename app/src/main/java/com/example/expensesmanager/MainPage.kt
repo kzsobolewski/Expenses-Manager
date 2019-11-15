@@ -18,10 +18,6 @@ class MainPage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_page)
-        val navController = findNavController(R.id.main_nav_fragment)
-        newEntryFab.setOnClickListener {
-            navController.navigate(R.id.action_bottomNavBarFragment_to_addEntryFragment)
-        }
     }
 
 }

@@ -52,6 +52,8 @@ abstract class ExpensesDB : RoomDatabase(){
         }
 
         suspend fun populateDatabase(expenseDao: ExpenseDao) {
+            expenseDao.deleteAll()
+            expenseDao.insert(Expense(amount =  60f, spent = true, time = 1500f))
             expenseDao.insert(Expense(amount =  60f, spent = true, time = 1500f))
         }
     }

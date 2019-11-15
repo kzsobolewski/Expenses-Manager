@@ -1,6 +1,7 @@
 package com.example.expensesmanager.ui.home
 
 import android.app.Application
+import android.widget.Toast
 import androidx.lifecycle.*
 import com.example.expensesmanager.db.Expense
 import com.example.expensesmanager.db.ExpenseRepository
@@ -16,6 +17,7 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
         val expenseDao = ExpensesDB.getDatabase(application, viewModelScope).expenseDao()
         repository = ExpenseRepository(expenseDao)
         allExpenses = repository.allExpenses
+
     }
 
     fun insert(expense: Expense) = viewModelScope.launch {

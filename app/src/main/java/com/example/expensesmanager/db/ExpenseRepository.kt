@@ -1,9 +1,12 @@
 package com.example.expensesmanager.db
 
 import android.app.Application
+import android.content.Context
 import android.os.AsyncTask
 import android.os.strictmode.InstanceCountViolation
 import androidx.lifecycle.LiveData
+import androidx.room.Room
+import kotlinx.coroutines.CoroutineScope
 
 
 class ExpenseRepository(private val expenseDao: ExpenseDao) {
@@ -12,18 +15,5 @@ class ExpenseRepository(private val expenseDao: ExpenseDao) {
 
     suspend fun insert(expense: Expense){
         expenseDao.insert(expense)
-    }
-
-    companion object{
-        @Volatile
-        private var instance: ExpenseRepository? = null
-
-        fun getInstance(expenseDao: ExpenseDao){
-            instance ?: synchronized(this){
-                instance ?: ExpenseRepository(expenseDao).also {instance = it
-                }
-            }
-        }
-
     }
 }
