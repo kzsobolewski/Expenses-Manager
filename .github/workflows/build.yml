@@ -12,6 +12,9 @@ jobs:
     - name: checkout submodule
       run: git submodule sync --recursive && git submodule update --init --recursive
       
+    - name: Update Gradle Wrapper
+      uses: rahulsom/gradle-up@v0.1.0
+    
     - name: before build
       uses: xdtianyu/actions-android-ci@master
       with:
