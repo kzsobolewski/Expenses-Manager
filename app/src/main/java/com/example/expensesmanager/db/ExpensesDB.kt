@@ -5,11 +5,14 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
+import com.example.expensesmanager.formatter.TiviTypeConverters
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import java.time.OffsetDateTime
+import java.util.*
 
-@Database(entities = [Expense::class], version = 3, exportSchema = false)
+@Database(entities = [Expense::class], version = 6, exportSchema = false)
 abstract class ExpensesDB : RoomDatabase(){
 
     abstract fun expenseDao() : ExpenseDao
@@ -28,8 +31,8 @@ abstract class ExpensesDB : RoomDatabase(){
                     ExpensesDB::class.java,
                     "expenses_database"
                 )
+                    .fallbackToDestructiveMigration()
                     .addCallback(ExpenseDBCallback(scope))
-//                    .fallbackToDestructiveMigration()
                     .build()
                 INSTANCE = instance
                 instance
@@ -53,8 +56,8 @@ abstract class ExpensesDB : RoomDatabase(){
 
         suspend fun populateDatabase(expenseDao: ExpenseDao) {
             expenseDao.deleteAll()
-            expenseDao.insert(Expense(amount =  60f, spent = true, time = 1500f))
-            expenseDao.insert(Expense(amount =  60f, spent = true, time = 1500f))
+            expenseDao.insert(Expense(amount =  60f, spent = true, time = TiviTypeConverters.fromOffsetDateTime(
+                OffsetDateTime.now())))
         }
     }
 }

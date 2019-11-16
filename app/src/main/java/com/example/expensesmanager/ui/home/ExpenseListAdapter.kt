@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.expensesmanager.R
 import com.example.expensesmanager.db.Expense
+import com.example.expensesmanager.formatter.TiviTypeConverters
 
 class ExpenseListAdapter internal constructor(
     context: Context
@@ -17,7 +18,8 @@ class ExpenseListAdapter internal constructor(
     private var expenses = emptyList<Expense>() // cached copy
 
     inner class ExpenseViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val expenseItemView : TextView = itemView.findViewById(R.id.recyclerview_item_textview)
+        val amountItemView : TextView = itemView.findViewById(R.id.recyclerview_item_value)
+        val timeItemView : TextView = itemView.findViewById(R.id.recyclerview_item_time)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ExpenseViewHolder {
@@ -26,8 +28,10 @@ class ExpenseListAdapter internal constructor(
     }
 
     override fun onBindViewHolder(holder: ExpenseViewHolder, position: Int) {
-        val current = expenses[position]
-        holder.expenseItemView.text = current.amount.toString()
+        val current = expenses[expenses.size - 1 - position]
+        holder.amountItemView.text = current.amount.toString()
+        val dateTime = TiviTypeConverters.toOffsetDateTime(current.time)
+        holder.timeItemView.text = dateTime?.year.toString()
     }
 
     internal fun setExpenses(expenses: List<Expense>){
@@ -36,6 +40,5 @@ class ExpenseListAdapter internal constructor(
     }
 
     override fun getItemCount() = expenses.size
-
 
 }

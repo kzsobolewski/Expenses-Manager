@@ -20,7 +20,4 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
 
     }
 
-    fun insert(expense: Expense) = viewModelScope.launch {
-        repository.insert(expense)
-    }
 }
