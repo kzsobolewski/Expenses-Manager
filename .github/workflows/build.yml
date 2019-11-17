@@ -1,4 +1,4 @@
-name: CI
+name: Android CI
 
 on: [push]
 
@@ -8,7 +8,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Gradle Android
-      uses: Raul6469/android-gradle-action@1.0.0
-    - name: setup-android
-      uses: msfjarvis/setup-android@0.2
+    - uses: actions/checkout@v1
+    - name: checkout submodule
+      run: git submodule sync --recursive && git submodule update --init --recursive
+      
+    - name: Update Gradle Wrapper
+      uses: rahulsom/gradle-up@v0.1.0
+    
+    - name: before build
+      uses: xdtianyu/actions-android-ci@master
+      with:
+        args: '"
+        source .travis/env.sh;
+        touch local.properties
+        "'
+
+    - name: build
+      uses: xdtianyu/actions-android-ci@master
+      with: 
+        args: '"
+        source .travis/env.sh;
+        source /opt/setup-android-sdk.sh;
+        ./gradlew assembleDebug
+        "'
