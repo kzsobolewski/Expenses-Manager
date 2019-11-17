@@ -4,10 +4,13 @@
     <color name="moneySpent">#C51162</color>
     <color name="textColorDark">#000000</color>
     <color name="textColorLight">#ffffff</color>
+    <color name="unfocusedIcon">#B4B4B4</color>
+    <color name="textColorGrey">#6D6D6D</color>
     <color name="transparent">#00FFFFFF</color>
+    <color name="almostWhite">#F9F9F9</color>
 
-    <color name="colorPrimary">#e0f7fa</color>
+    <color name="colorPrimary">#F4FBFF</color>
+    <color name="colorPrimaryDark">#F4FBFF</color>
     <color name="colorPrimaryLight">#ffffff</color>
-    <color name="colorPrimaryDark">#aec4c7</color>
     <color name="colorAccent">#7e57c2</color>
 </resources>

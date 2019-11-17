@@ -9,6 +9,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.Navigation.findNavController
 import androidx.navigation.findNavController
+import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.expensesmanager.R
@@ -26,10 +27,9 @@ class HomeFragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
 
         val recyclerView: RecyclerView = activity!!.findViewById(R.id.recyclerview2)
-        val adapter = ExpenseListAdapter(context!!)
+        val adapter = ExpenseListAdapter(recyclerView.context)
         recyclerView.adapter = adapter
-        recyclerView.layoutManager = LinearLayoutManager(context!!)
-
+        recyclerView.layoutManager = LinearLayoutManager(recyclerView.context)
         val navController = findNavController(activity!!,R.id.main_nav_fragment)
         newEntryFAB.setOnClickListener {
             navController.navigate(R.id.action_bottomNavBarFragment_to_addEntryFragment)

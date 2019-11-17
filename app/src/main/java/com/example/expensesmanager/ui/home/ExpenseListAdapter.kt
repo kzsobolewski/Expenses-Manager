@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.expensesmanager.R
 import com.example.expensesmanager.db.Expense
 import com.example.expensesmanager.formatter.TiviTypeConverters
+import kotlin.math.roundToLong
 
 class ExpenseListAdapter internal constructor(
     context: Context
@@ -32,15 +33,17 @@ class ExpenseListAdapter internal constructor(
 
     override fun onBindViewHolder(holder: ExpenseViewHolder, position: Int) {
         val current = expenses[expenses.size - 1 - position]
-        holder.amountItemView.text = current.amount.toString()
+        holder.amountItemView.text = String.format("%.2f %s", current.amount, current.currency)
+        if (current.spent)
+            holder.amountItemView.text = "- " + holder.amountItemView.text
         val dateTime = TiviTypeConverters.toOffsetDateTime(current.time)
         holder.timeItemView.text = dateTime?.toLocalDate().toString()
 
         holder.amountItemView.setTextColor(
             if(current.spent)
-                Color.RED
+                Color.argb(255,200, 10, 10)
             else
-                Color.argb(255,10,255,10)
+                Color.argb(255,10,200,10)
         )
     }
 

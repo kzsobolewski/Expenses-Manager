@@ -6,10 +6,10 @@ import androidx.room.PrimaryKey
 
 @Entity(tableName = "Expense_table")
 data class Expense(
-    val amount: Float,
+    val amount: Float = 0f,
     val spent: Boolean = true,
     val currency: String = "PLN",
-    val Company: String? = null,
+    val company: String? = null,
     val description: String? = null,
     val time: String? = null,
 

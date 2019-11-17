@@ -12,7 +12,7 @@ import kotlinx.coroutines.launch
 import java.time.OffsetDateTime
 import java.util.*
 
-@Database(entities = [Expense::class], version = 7, exportSchema = false)
+@Database(entities = [Expense::class], version = 9, exportSchema = false)
 abstract class ExpensesDB : RoomDatabase(){
 
     abstract fun expenseDao() : ExpenseDao
