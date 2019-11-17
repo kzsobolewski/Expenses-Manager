@@ -40,7 +40,7 @@ class AddEntryFragment : Fragment(){
         addButton.setOnClickListener{
             viewModel.insert(Expense(
                 amount = 65f,
-                spent = true,
+                spent = false,
                 time = TiviTypeConverters.fromOffsetDateTime(OffsetDateTime.now())
             ))
             navController.navigate(R.id.action_addEntryFragment_to_bottomNavBarFragment)
