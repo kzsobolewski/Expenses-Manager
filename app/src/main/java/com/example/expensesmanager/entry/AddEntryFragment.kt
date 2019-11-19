@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Switch
+import android.widget.Toast
 import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.Navigation
 import com.example.expensesmanager.R
@@ -37,21 +38,23 @@ class AddEntryFragment : Fragment(){
         super.onActivityCreated(savedInstanceState)
         val navController = Navigation.findNavController(activity!!, R.id.main_nav_fragment)
         addButton = activity!!.findViewById(R.id.addEntry_button)
-        val amountTextView = activity!!.findViewById<EditText>(R.id.addEntry_amount)
-//        val spentSwitch= activity?.findViewById<Switch>(R.id.addEntry_spent)?.isActivated ?: true
         addButton.setOnClickListener {
-            if (amountTextView.text.toString().trim().isNotEmpty() ||
-                amountTextView.text.toString().trim().isNotBlank()
-            ) {
+            if (addEntry_amount.text.toString().trim().isNotEmpty()) {
                 viewModel.insert(
                     Expense(
-                        amount = amountTextView.text.toString().toFloat(),
-                        spent = true,
-                        time = TiviTypeConverters.fromOffsetDateTime(OffsetDateTime.now())
+                        amount = addEntry_amount.text.toString().toFloat(),
+                        spent = addEntry_spent.isChecked,
+                        time = TiviTypeConverters.fromOffsetDateTime(OffsetDateTime.now()),
+                        company = addEntry_company.text?.toString(),
+                        currency = addEntry_currency.text?.toString() ?: "PLN",
+                        description = addEntry_description.text?.toString()
                     )
                 ).isCompleted.apply {
                     navController.navigate(R.id.action_addEntryFragment_to_bottomNavBarFragment)
                 }
+            } else {
+                Toast.makeText(activity!!,R.string.Error_no_string_in_amount, Toast.LENGTH_LONG)
+                    .show()
             }
         }
     }

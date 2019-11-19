@@ -3,8 +3,7 @@
     <string name="title_activity_main_page">MainPage</string>
     <string name="title_home">Expenses</string>
     <string name="title_dashboard">Charts</string>
-    <string name="title_notifications">Recipt reader</string>
+    <string name="title_notifications">Receipt reader</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Error_no_string_in_amount">Please write the amount of money</string>
 </resources>

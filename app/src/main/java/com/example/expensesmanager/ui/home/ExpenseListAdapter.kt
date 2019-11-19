@@ -19,12 +19,8 @@ class ExpenseListAdapter internal constructor(
 ) : RecyclerView.Adapter<ExpenseListAdapter.ExpenseViewHolder>() {
 
     private val inflater: LayoutInflater = LayoutInflater.from(context)
+    var onItemClick: ((Expense) -> Boolean)? = null
     private var expenses = emptyList<Expense>() // cached copy
-
-    inner class ExpenseViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val amountItemView : TextView = itemView.findViewById(R.id.recyclerview_item_value)
-        val timeItemView : TextView = itemView.findViewById(R.id.recyclerview_item_time)
-    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ExpenseViewHolder {
         val itemView = inflater.inflate(R.layout.recyclerview_item,parent,false)
@@ -32,7 +28,7 @@ class ExpenseListAdapter internal constructor(
     }
 
     override fun onBindViewHolder(holder: ExpenseViewHolder, position: Int) {
-        val current = expenses[expenses.size - 1 - position]
+        val current = expenses[getInvertedPosition(position)]
         holder.amountItemView.text = String.format("%.2f %s", current.amount, current.currency)
         if (current.spent)
             holder.amountItemView.text = "- " + holder.amountItemView.text
@@ -53,5 +49,20 @@ class ExpenseListAdapter internal constructor(
     }
 
     override fun getItemCount() = expenses.size
+
+    fun getInvertedPosition(position: Int) = itemCount - position - 1
+
+
+
+    inner class ExpenseViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
+        val amountItemView : TextView = itemView.findViewById(R.id.recyclerview_item_value)
+        val timeItemView : TextView = itemView.findViewById(R.id.recyclerview_item_time)
+
+        init {
+            itemView.setOnLongClickListener{
+                onItemClick!!.invoke(expenses[getInvertedPosition(adapterPosition)])
+            }
+        }
+    }
 
 }
