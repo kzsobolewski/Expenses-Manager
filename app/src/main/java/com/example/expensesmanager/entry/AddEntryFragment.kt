@@ -46,6 +46,7 @@ class AddEntryFragment : Fragment(){
                         spent = addEntry_spent.isChecked,
                         time = TiviTypeConverters.fromOffsetDateTime(OffsetDateTime.now()),
                         company = addEntry_company.text?.toString(),
+                        category = addEntry_category.text?.toString(),
                         currency = addEntry_currency.text?.toString() ?: "PLN",
                         description = addEntry_description.text?.toString()
                     )

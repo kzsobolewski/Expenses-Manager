@@ -6,6 +6,7 @@ apply plugin: 'kotlin-android-extensions'
 
 apply plugin: 'kotlin-kapt'
 
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 28
@@ -55,8 +56,22 @@ dependencies {
     implementation "androidx.room:room-ktx:$rootProject.roomVersion"
     kapt "androidx.room:room-compiler:$rootProject.roomVersion"
     androidTestImplementation "androidx.room:room-testing:$rootProject.roomVersion"
+
     // Coroutines
     api "org.jetbrains.kotlinx:kotlinx-coroutines-android:$rootProject.coroutines"
 
+    // Chart library
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    
+    // Firebase
+    implementation 'com.google.firebase:firebase-core:17.2.1'
+    implementation 'com.google.firebase:firebase-analytics:17.2.1'
+    implementation 'com.google.firebase:firebase-ml-vision:24.0.1'
+    implementation 'com.google.firebase:firebase-ml-vision-image-label-model:19.0.0'
 
+    // permissions
+    implementation 'com.nabinbhandari.android:permissions:3.8'
+
+    //Image Cropping
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.7.0'
 }

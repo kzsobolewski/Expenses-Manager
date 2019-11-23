@@ -15,7 +15,6 @@
 
     <TextView
         android:id="@+id/recyclerview_item_time"
-        style="@style/expense_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="2019-30-04"
@@ -27,7 +26,6 @@
 
     <TextView
         android:id="@+id/recyclerview_item_value"
-        style="@style/expense_title"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="233.00 PLN"

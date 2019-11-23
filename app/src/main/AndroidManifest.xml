@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.expensesmanager">
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!--Firebase ML Meta Requires-->
+    <meta-data
+        android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+        android:value="ocr" />
+    <!-- To use multiple models: android:value="ocr,model2,model3" -->
 
     <application
         android:allowBackup="true"
@@ -19,5 +27,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>

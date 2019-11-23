@@ -11,7 +11,16 @@
 
     <!-- The default font for RecyclerView items is too small.
 The margin is a simple delimiter between the words. -->
-    <style name="expense_title">
+    <style name="charts_balance_text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/textColorDark</item>
+        <item name="android:layout_margin">4dp</item>
     </style>
+    <style name="charts_tab">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:background">@color/colorPrimaryLight</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+
 
 </resources>

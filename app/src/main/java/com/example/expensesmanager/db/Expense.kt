@@ -10,6 +10,7 @@ data class Expense(
     val spent: Boolean = true,
     val currency: String = "PLN",
     val company: String? = null,
+    val category: String? = null,
     val description: String? = null,
     val time: String? = null,
 
