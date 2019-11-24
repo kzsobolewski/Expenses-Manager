@@ -1,0 +1,602 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-38:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b7a31eae75b95e4bc17d446002809a98\lifecycle-viewmodel-ktx-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-ktx:2.2.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\d18d24e9f36c0ed882b7cf61d2d3da7f\room-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-adapters:3.5.2] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\1cdf9f6db4b928e6db251ca064ff290c\databinding-adapters-3.5.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:3.5.2] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\90140df7e6aab45721a7c6da81933cb7\databinding-runtime-3.5.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\1890d3f29760b930702bc19fc084a227\navigation-ui-ktx-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\e250c4ed361e51503eb39e8738302e01\jetified-navigation-ui-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b2869cfb54b6c62249691e80e7f3958a\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.7.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\71f28666745840745a211322ededbf9e\jetified-android-image-cropper-2.7.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c1bdf704990e457939d92af3ca9b59f6\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.0.2] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\7a26be56d9584e6ba5c711cff4adb362\core-ktx-1.0.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\1dc225fedac4711e4382ee870cc5858d\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\09f7820e2c1cb1ccd4cc5c3c9bcc5a1f\navigation-fragment-ktx-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\4c1cc22bd46082b2b7bbbb31aadaa2d5\navigation-fragment-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c158c9a79c9e1c3ba38e3f042e480bb1\lifecycle-extensions-2.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\687949ea4f1343b85e34a5753ea2bb71\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.2.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b380a53728cafb19a5d4d732d1343240\room-runtime-2.2.0\AndroidManifest.xml:17:1-30:12
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\a8f5e9ad842c9e077ddec5eb5d03911a\MPAndroidChart-v3.1.0\AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.firebase:firebase-core:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\bfb43d59705eab6653a35c66bf760c74\firebase-core-17.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\51b34d5ff83b76bd18022cf44df84402\firebase-analytics-17.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0a62d83450f5b121ca46a74b3c1e65eb\firebase-ml-vision-24.0.1\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\3a3a757e970c593dd0f62ad2929dbcdb\firebase-ml-vision-image-label-model-19.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.nabinbhandari.android:permissions:3.8] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\e569139376d6f74ea769168f27feb6eb\permissions-3.8\AndroidManifest.xml:2:1-17:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\79ec25d65e7014eca43626f8f8f8eab5\navigation-runtime-ktx-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\3f815870b73edc906e2567fd2b5dfc0f\navigation-common-ktx-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\570d41201d24c7b1c026e965e166f355\play-services-auth-base-17.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-vision:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\89b15682517b3b25817a23ea18c15903\play-services-vision-19.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-image-label:18.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0f01e9fd2d8290809b9b72820da2836e\play-services-vision-image-label-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\26a225daa69c679d5e447609de2a9388\play-services-vision-common-19.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-ml-common:22.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\379a95831393e2d9e3a815241b2b8e02\firebase-ml-common-22.0.1\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\148d34b1d999703490079d3b0024e546\play-services-clearcut-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9ea9e19657d217c482b654d68ded26f5\play-services-flags-17.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\94c17bbc2997c0ca3eabb7cd2158f737\play-services-phenotype-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0138b38b808e5e566b8baac49d4b6853\play-services-measurement-api-17.2.1\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\20d2d67e7f0dfa39bc61c997d104251f\firebase-iid-interop-17.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\20ed8b464100ff8a194455c322774a15\play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\8f0125283cc85929bbe03fdf27edf3a0\play-services-measurement-sdk-17.2.1\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ad86c78dbdb0d7240ae1b28bc779e4f4\firebase-common-19.0.0\AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\3377dee325b6531c9417137b23d19987\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c74052ae7974c0ee8796f3e2e75c9871\play-services-measurement-impl-17.2.1\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\35a5e779ed653b35806d12705df403ca\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\233a62fe15e849676ed23b33348f21aa\play-services-measurement-base-17.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9310ded1ed908b0ad953057d6f6cc6b5\play-services-stats-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\4da3d8d95b4424caccb70757f2b49074\firebase-measurement-connector-18.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\836003de7beacf9764efb13d0f8f7cb9\play-services-ads-identifier-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\44decf699cc282208bc8d1d3a89cfacd\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b9417e28fa0adf2b23780a3bd496cdc8\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\5772a388b76e3f5c0395443981bda89f\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\1ccc9def2420faae8ab6416f08b40217\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\36139afff930d11dc1ce875bcf414d1b\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ff57a4b37a0ed0210a762d16bcb850aa\navigation-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\d99416c3e0c087c44ea8d2895e081597\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\49439bc997001eb4987bf1fdcc7b56df\vectordrawable-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\8587dd1c30423c7a2b142482fa82bdc0\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\2ab5a2ef3d971302367f8a2aeae34568\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9fb2952747b3ce136c59bdce0dd61053\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9fc6802099a838d94618094100f5cdd3\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\49e6eda368e41ffb7e1ee467c82400d0\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\918d4d31f0acefd2f1672bdc52595724\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\80a1ba397da09ac625230ca660ef1f27\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\aef788ae09a931a1b607b86ffe671d32\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\09383dd428cb9f51c1855a1f48c3b450\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\88d27fc0fe7ec6b74b90e2e8c2827981\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\84baa766fd4802b8b566805abb88971a\navigation-common-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.2] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\953748eb0ea198b15449a22958493b37\core-1.0.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\aaddc71baafc9fb1c0d5bf0e7bb7b101\lifecycle-service-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\85836670bacebe54e64252e3e50ec0c0\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\18c6367d99e2e3e9739295a4b49a20b3\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b3f266603ed937ac0d4be6f4f3454d58\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\2da38faac1374e9a39762656762097fa\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\73c47b114d89e3c9106fbb7bac21723e\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\8e928db2692cc6ca70716e32b386c13b\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\2bcb64effa7c27799952f356561ddc62\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c66a2d3074e53b711ecfcfaecbe66182\core-runtime-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ede7db584550d19cb166d3fcccf7c07f\sqlite-framework-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\70d1055743dbefc9ff33ea05bc0173b6\sqlite-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\fc26547810568d7acfdf05c9529215a3\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\82bd7de49ab6947d9ef355d6652207d2\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\11519f21cd354f37022436df4a473822\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ba44278b016131893c299806c796abba\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\4ec69ea8c11f32a7b8424a702e1d86ca\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-38:12
+	package
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-38:12
+		INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-38:12
+		INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:4:5-64
+	android:name
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:4:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:6:22-77
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:7:5-66
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0138b38b808e5e566b8baac49d4b6853\play-services-measurement-api-17.2.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0138b38b808e5e566b8baac49d4b6853\play-services-measurement-api-17.2.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c74052ae7974c0ee8796f3e2e75c9871\play-services-measurement-impl-17.2.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c74052ae7974c0ee8796f3e2e75c9871\play-services-measurement-impl-17.2.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\35a5e779ed653b35806d12705df403ca\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\35a5e779ed653b35806d12705df403ca\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:7:22-64
+meta-data#com.google.firebase.ml.vision.DEPENDENCIES
+ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:9:5-11:31
+	android:value
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:11:9-28
+	android:name
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:10:9-66
+application
+ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:12:5-37:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b2869cfb54b6c62249691e80e7f3958a\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b2869cfb54b6c62249691e80e7f3958a\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\1dc225fedac4711e4382ee870cc5858d\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\1dc225fedac4711e4382ee870cc5858d\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c158c9a79c9e1c3ba38e3f042e480bb1\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c158c9a79c9e1c3ba38e3f042e480bb1\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.room:room-runtime:2.2.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b380a53728cafb19a5d4d732d1343240\room-runtime-2.2.0\AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.room:room-runtime:2.2.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b380a53728cafb19a5d4d732d1343240\room-runtime-2.2.0\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-core:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\bfb43d59705eab6653a35c66bf760c74\firebase-core-17.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\bfb43d59705eab6653a35c66bf760c74\firebase-core-17.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\51b34d5ff83b76bd18022cf44df84402\firebase-analytics-17.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\51b34d5ff83b76bd18022cf44df84402\firebase-analytics-17.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0a62d83450f5b121ca46a74b3c1e65eb\firebase-ml-vision-24.0.1\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0a62d83450f5b121ca46a74b3c1e65eb\firebase-ml-vision-24.0.1\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\3a3a757e970c593dd0f62ad2929dbcdb\firebase-ml-vision-image-label-model-19.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\3a3a757e970c593dd0f62ad2929dbcdb\firebase-ml-vision-image-label-model-19.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.nabinbhandari.android:permissions:3.8] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\e569139376d6f74ea769168f27feb6eb\permissions-3.8\AndroidManifest.xml:11:5-15:19
+MERGED from [com.nabinbhandari.android:permissions:3.8] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\e569139376d6f74ea769168f27feb6eb\permissions-3.8\AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.android.gms:play-services-vision:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\89b15682517b3b25817a23ea18c15903\play-services-vision-19.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\89b15682517b3b25817a23ea18c15903\play-services-vision-19.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:18.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0f01e9fd2d8290809b9b72820da2836e\play-services-vision-image-label-18.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:18.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0f01e9fd2d8290809b9b72820da2836e\play-services-vision-image-label-18.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\26a225daa69c679d5e447609de2a9388\play-services-vision-common-19.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\26a225daa69c679d5e447609de2a9388\play-services-vision-common-19.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ml-common:22.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\379a95831393e2d9e3a815241b2b8e02\firebase-ml-common-22.0.1\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-ml-common:22.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\379a95831393e2d9e3a815241b2b8e02\firebase-ml-common-22.0.1\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\148d34b1d999703490079d3b0024e546\play-services-clearcut-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\148d34b1d999703490079d3b0024e546\play-services-clearcut-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\94c17bbc2997c0ca3eabb7cd2158f737\play-services-phenotype-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\94c17bbc2997c0ca3eabb7cd2158f737\play-services-phenotype-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0138b38b808e5e566b8baac49d4b6853\play-services-measurement-api-17.2.1\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0138b38b808e5e566b8baac49d4b6853\play-services-measurement-api-17.2.1\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\20d2d67e7f0dfa39bc61c997d104251f\firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\20d2d67e7f0dfa39bc61c997d104251f\firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\20ed8b464100ff8a194455c322774a15\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\20ed8b464100ff8a194455c322774a15\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\8f0125283cc85929bbe03fdf27edf3a0\play-services-measurement-sdk-17.2.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\8f0125283cc85929bbe03fdf27edf3a0\play-services-measurement-sdk-17.2.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ad86c78dbdb0d7240ae1b28bc779e4f4\firebase-common-19.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ad86c78dbdb0d7240ae1b28bc779e4f4\firebase-common-19.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\3377dee325b6531c9417137b23d19987\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\3377dee325b6531c9417137b23d19987\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c74052ae7974c0ee8796f3e2e75c9871\play-services-measurement-impl-17.2.1\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c74052ae7974c0ee8796f3e2e75c9871\play-services-measurement-impl-17.2.1\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\233a62fe15e849676ed23b33348f21aa\play-services-measurement-base-17.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\233a62fe15e849676ed23b33348f21aa\play-services-measurement-base-17.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9310ded1ed908b0ad953057d6f6cc6b5\play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9310ded1ed908b0ad953057d6f6cc6b5\play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\4da3d8d95b4424caccb70757f2b49074\firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\4da3d8d95b4424caccb70757f2b49074\firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\836003de7beacf9764efb13d0f8f7cb9\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\836003de7beacf9764efb13d0f8f7cb9\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\44decf699cc282208bc8d1d3a89cfacd\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\44decf699cc282208bc8d1d3a89cfacd\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.2] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\953748eb0ea198b15449a22958493b37\core-1.0.2\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.2] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\953748eb0ea198b15449a22958493b37\core-1.0.2\AndroidManifest.xml:22:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\18c6367d99e2e3e9739295a4b49a20b3\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\18c6367d99e2e3e9739295a4b49a20b3\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.2] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\953748eb0ea198b15449a22958493b37\core-1.0.2\AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:15:9-41
+	android:roundIcon
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:16:9-54
+	android:icon
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:14:9-43
+	android:allowBackup
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:18:9-40
+activity#com.example.expensesmanager.MainActivity
+ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:19:9-25:20
+	android:name
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:20:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:21:13-24:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:23:27-74
+provider#androidx.core.content.FileProvider
+ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:27:9-35:20
+	android:grantUriPermissions
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:31:13-47
+	android:authorities
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:29:13-75
+	android:exported
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:28:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:32:13-34:64
+	android:resource
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:34:17-51
+	android:name
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:33:17-67
+uses-sdk
+INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b7a31eae75b95e4bc17d446002809a98\lifecycle-viewmodel-ktx-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b7a31eae75b95e4bc17d446002809a98\lifecycle-viewmodel-ktx-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.2.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\d18d24e9f36c0ed882b7cf61d2d3da7f\room-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.2.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\d18d24e9f36c0ed882b7cf61d2d3da7f\room-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-adapters:3.5.2] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\1cdf9f6db4b928e6db251ca064ff290c\databinding-adapters-3.5.2\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:3.5.2] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\1cdf9f6db4b928e6db251ca064ff290c\databinding-adapters-3.5.2\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.5.2] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\90140df7e6aab45721a7c6da81933cb7\databinding-runtime-3.5.2\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.5.2] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\90140df7e6aab45721a7c6da81933cb7\databinding-runtime-3.5.2\AndroidManifest.xml:22:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\1890d3f29760b930702bc19fc084a227\navigation-ui-ktx-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\1890d3f29760b930702bc19fc084a227\navigation-ui-ktx-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\e250c4ed361e51503eb39e8738302e01\jetified-navigation-ui-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\e250c4ed361e51503eb39e8738302e01\jetified-navigation-ui-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b2869cfb54b6c62249691e80e7f3958a\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b2869cfb54b6c62249691e80e7f3958a\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.7.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\71f28666745840745a211322ededbf9e\jetified-android-image-cropper-2.7.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.7.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\71f28666745840745a211322ededbf9e\jetified-android-image-cropper-2.7.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c1bdf704990e457939d92af3ca9b59f6\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c1bdf704990e457939d92af3ca9b59f6\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.0.2] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\7a26be56d9584e6ba5c711cff4adb362\core-ktx-1.0.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.0.2] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\7a26be56d9584e6ba5c711cff4adb362\core-ktx-1.0.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\1dc225fedac4711e4382ee870cc5858d\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\1dc225fedac4711e4382ee870cc5858d\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\09f7820e2c1cb1ccd4cc5c3c9bcc5a1f\navigation-fragment-ktx-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\09f7820e2c1cb1ccd4cc5c3c9bcc5a1f\navigation-fragment-ktx-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\4c1cc22bd46082b2b7bbbb31aadaa2d5\navigation-fragment-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\4c1cc22bd46082b2b7bbbb31aadaa2d5\navigation-fragment-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c158c9a79c9e1c3ba38e3f042e480bb1\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c158c9a79c9e1c3ba38e3f042e480bb1\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\687949ea4f1343b85e34a5753ea2bb71\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\687949ea4f1343b85e34a5753ea2bb71\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.2.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b380a53728cafb19a5d4d732d1343240\room-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b380a53728cafb19a5d4d732d1343240\room-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\a8f5e9ad842c9e077ddec5eb5d03911a\MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\a8f5e9ad842c9e077ddec5eb5d03911a\MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
+MERGED from [com.google.firebase:firebase-core:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\bfb43d59705eab6653a35c66bf760c74\firebase-core-17.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\bfb43d59705eab6653a35c66bf760c74\firebase-core-17.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\51b34d5ff83b76bd18022cf44df84402\firebase-analytics-17.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\51b34d5ff83b76bd18022cf44df84402\firebase-analytics-17.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0a62d83450f5b121ca46a74b3c1e65eb\firebase-ml-vision-24.0.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0a62d83450f5b121ca46a74b3c1e65eb\firebase-ml-vision-24.0.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\3a3a757e970c593dd0f62ad2929dbcdb\firebase-ml-vision-image-label-model-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\3a3a757e970c593dd0f62ad2929dbcdb\firebase-ml-vision-image-label-model-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.nabinbhandari.android:permissions:3.8] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\e569139376d6f74ea769168f27feb6eb\permissions-3.8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.nabinbhandari.android:permissions:3.8] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\e569139376d6f74ea769168f27feb6eb\permissions-3.8\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\79ec25d65e7014eca43626f8f8f8eab5\navigation-runtime-ktx-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\79ec25d65e7014eca43626f8f8f8eab5\navigation-runtime-ktx-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\3f815870b73edc906e2567fd2b5dfc0f\navigation-common-ktx-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\3f815870b73edc906e2567fd2b5dfc0f\navigation-common-ktx-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\570d41201d24c7b1c026e965e166f355\play-services-auth-base-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\570d41201d24c7b1c026e965e166f355\play-services-auth-base-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\89b15682517b3b25817a23ea18c15903\play-services-vision-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\89b15682517b3b25817a23ea18c15903\play-services-vision-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:18.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0f01e9fd2d8290809b9b72820da2836e\play-services-vision-image-label-18.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:18.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0f01e9fd2d8290809b9b72820da2836e\play-services-vision-image-label-18.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\26a225daa69c679d5e447609de2a9388\play-services-vision-common-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\26a225daa69c679d5e447609de2a9388\play-services-vision-common-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-common:22.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\379a95831393e2d9e3a815241b2b8e02\firebase-ml-common-22.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-common:22.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\379a95831393e2d9e3a815241b2b8e02\firebase-ml-common-22.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\148d34b1d999703490079d3b0024e546\play-services-clearcut-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\148d34b1d999703490079d3b0024e546\play-services-clearcut-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9ea9e19657d217c482b654d68ded26f5\play-services-flags-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9ea9e19657d217c482b654d68ded26f5\play-services-flags-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\94c17bbc2997c0ca3eabb7cd2158f737\play-services-phenotype-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\94c17bbc2997c0ca3eabb7cd2158f737\play-services-phenotype-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0138b38b808e5e566b8baac49d4b6853\play-services-measurement-api-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0138b38b808e5e566b8baac49d4b6853\play-services-measurement-api-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\20d2d67e7f0dfa39bc61c997d104251f\firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\20d2d67e7f0dfa39bc61c997d104251f\firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\20ed8b464100ff8a194455c322774a15\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\20ed8b464100ff8a194455c322774a15\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\8f0125283cc85929bbe03fdf27edf3a0\play-services-measurement-sdk-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\8f0125283cc85929bbe03fdf27edf3a0\play-services-measurement-sdk-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ad86c78dbdb0d7240ae1b28bc779e4f4\firebase-common-19.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ad86c78dbdb0d7240ae1b28bc779e4f4\firebase-common-19.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\3377dee325b6531c9417137b23d19987\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\3377dee325b6531c9417137b23d19987\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c74052ae7974c0ee8796f3e2e75c9871\play-services-measurement-impl-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c74052ae7974c0ee8796f3e2e75c9871\play-services-measurement-impl-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\35a5e779ed653b35806d12705df403ca\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\35a5e779ed653b35806d12705df403ca\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\233a62fe15e849676ed23b33348f21aa\play-services-measurement-base-17.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\233a62fe15e849676ed23b33348f21aa\play-services-measurement-base-17.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9310ded1ed908b0ad953057d6f6cc6b5\play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9310ded1ed908b0ad953057d6f6cc6b5\play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\4da3d8d95b4424caccb70757f2b49074\firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\4da3d8d95b4424caccb70757f2b49074\firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\836003de7beacf9764efb13d0f8f7cb9\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\836003de7beacf9764efb13d0f8f7cb9\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\44decf699cc282208bc8d1d3a89cfacd\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\44decf699cc282208bc8d1d3a89cfacd\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b9417e28fa0adf2b23780a3bd496cdc8\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b9417e28fa0adf2b23780a3bd496cdc8\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\5772a388b76e3f5c0395443981bda89f\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\5772a388b76e3f5c0395443981bda89f\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\1ccc9def2420faae8ab6416f08b40217\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\1ccc9def2420faae8ab6416f08b40217\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\36139afff930d11dc1ce875bcf414d1b\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\36139afff930d11dc1ce875bcf414d1b\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ff57a4b37a0ed0210a762d16bcb850aa\navigation-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ff57a4b37a0ed0210a762d16bcb850aa\navigation-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\d99416c3e0c087c44ea8d2895e081597\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\d99416c3e0c087c44ea8d2895e081597\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\49439bc997001eb4987bf1fdcc7b56df\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\49439bc997001eb4987bf1fdcc7b56df\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\8587dd1c30423c7a2b142482fa82bdc0\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\8587dd1c30423c7a2b142482fa82bdc0\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\2ab5a2ef3d971302367f8a2aeae34568\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\2ab5a2ef3d971302367f8a2aeae34568\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9fb2952747b3ce136c59bdce0dd61053\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9fb2952747b3ce136c59bdce0dd61053\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9fc6802099a838d94618094100f5cdd3\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9fc6802099a838d94618094100f5cdd3\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\49e6eda368e41ffb7e1ee467c82400d0\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\49e6eda368e41ffb7e1ee467c82400d0\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\918d4d31f0acefd2f1672bdc52595724\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\918d4d31f0acefd2f1672bdc52595724\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\80a1ba397da09ac625230ca660ef1f27\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\80a1ba397da09ac625230ca660ef1f27\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\aef788ae09a931a1b607b86ffe671d32\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\aef788ae09a931a1b607b86ffe671d32\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\09383dd428cb9f51c1855a1f48c3b450\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\09383dd428cb9f51c1855a1f48c3b450\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\88d27fc0fe7ec6b74b90e2e8c2827981\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\88d27fc0fe7ec6b74b90e2e8c2827981\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\84baa766fd4802b8b566805abb88971a\navigation-common-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\84baa766fd4802b8b566805abb88971a\navigation-common-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.2] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\953748eb0ea198b15449a22958493b37\core-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.2] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\953748eb0ea198b15449a22958493b37\core-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\aaddc71baafc9fb1c0d5bf0e7bb7b101\lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\aaddc71baafc9fb1c0d5bf0e7bb7b101\lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\85836670bacebe54e64252e3e50ec0c0\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\85836670bacebe54e64252e3e50ec0c0\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\18c6367d99e2e3e9739295a4b49a20b3\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\18c6367d99e2e3e9739295a4b49a20b3\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b3f266603ed937ac0d4be6f4f3454d58\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b3f266603ed937ac0d4be6f4f3454d58\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\2da38faac1374e9a39762656762097fa\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\2da38faac1374e9a39762656762097fa\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\73c47b114d89e3c9106fbb7bac21723e\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\73c47b114d89e3c9106fbb7bac21723e\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\8e928db2692cc6ca70716e32b386c13b\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\8e928db2692cc6ca70716e32b386c13b\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\2bcb64effa7c27799952f356561ddc62\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\2bcb64effa7c27799952f356561ddc62\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c66a2d3074e53b711ecfcfaecbe66182\core-runtime-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c66a2d3074e53b711ecfcfaecbe66182\core-runtime-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ede7db584550d19cb166d3fcccf7c07f\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ede7db584550d19cb166d3fcccf7c07f\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\70d1055743dbefc9ff33ea05bc0173b6\sqlite-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\70d1055743dbefc9ff33ea05bc0173b6\sqlite-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\fc26547810568d7acfdf05c9529215a3\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\fc26547810568d7acfdf05c9529215a3\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\82bd7de49ab6947d9ef355d6652207d2\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\82bd7de49ab6947d9ef355d6652207d2\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\11519f21cd354f37022436df4a473822\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\11519f21cd354f37022436df4a473822\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ba44278b016131893c299806c796abba\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ba44278b016131893c299806c796abba\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\4ec69ea8c11f32a7b8424a702e1d86ca\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\4ec69ea8c11f32a7b8424a702e1d86ca\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b380a53728cafb19a5d4d732d1343240\room-runtime-2.2.0\AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b380a53728cafb19a5d4d732d1343240\room-runtime-2.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b380a53728cafb19a5d4d732d1343240\room-runtime-2.2.0\AndroidManifest.xml:26:13-74
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0a62d83450f5b121ca46a74b3c1e65eb\firebase-ml-vision-24.0.1\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-ml-common:22.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\379a95831393e2d9e3a815241b2b8e02\firebase-ml-common-22.0.1\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-ml-common:22.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\379a95831393e2d9e3a815241b2b8e02\firebase-ml-common-22.0.1\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0138b38b808e5e566b8baac49d4b6853\play-services-measurement-api-17.2.1\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0138b38b808e5e566b8baac49d4b6853\play-services-measurement-api-17.2.1\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0a62d83450f5b121ca46a74b3c1e65eb\firebase-ml-vision-24.0.1\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0a62d83450f5b121ca46a74b3c1e65eb\firebase-ml-vision-24.0.1\AndroidManifest.xml:10:13-84
+meta-data#com.google.firebase.components:com.google.firebase.ml.vision.VisionRegistrar
+ADDED from [com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0a62d83450f5b121ca46a74b3c1e65eb\firebase-ml-vision-24.0.1\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0a62d83450f5b121ca46a74b3c1e65eb\firebase-ml-vision-24.0.1\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0a62d83450f5b121ca46a74b3c1e65eb\firebase-ml-vision-24.0.1\AndroidManifest.xml:13:17-108
+activity#com.nabinbhandari.android.permissions.PermissionsActivity
+ADDED from [com.nabinbhandari.android:permissions:3.8] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\e569139376d6f74ea769168f27feb6eb\permissions-3.8\AndroidManifest.xml:12:9-14:67
+	android:theme
+		ADDED from [com.nabinbhandari.android:permissions:3.8] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\e569139376d6f74ea769168f27feb6eb\permissions-3.8\AndroidManifest.xml:14:13-64
+	android:name
+		ADDED from [com.nabinbhandari.android:permissions:3.8] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\e569139376d6f74ea769168f27feb6eb\permissions-3.8\AndroidManifest.xml:13:13-85
+meta-data#com.google.firebase.components:com.google.firebase.ml.common.CommonComponentRegistrar
+ADDED from [com.google.firebase:firebase-ml-common:22.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\379a95831393e2d9e3a815241b2b8e02\firebase-ml-common-22.0.1\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-ml-common:22.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\379a95831393e2d9e3a815241b2b8e02\firebase-ml-common-22.0.1\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-ml-common:22.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\379a95831393e2d9e3a815241b2b8e02\firebase-ml-common-22.0.1\AndroidManifest.xml:12:17-117
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0138b38b808e5e566b8baac49d4b6853\play-services-measurement-api-17.2.1\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c74052ae7974c0ee8796f3e2e75c9871\play-services-measurement-impl-17.2.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c74052ae7974c0ee8796f3e2e75c9871\play-services-measurement-impl-17.2.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\35a5e779ed653b35806d12705df403ca\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\35a5e779ed653b35806d12705df403ca\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0138b38b808e5e566b8baac49d4b6853\play-services-measurement-api-17.2.1\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0138b38b808e5e566b8baac49d4b6853\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c74052ae7974c0ee8796f3e2e75c9871\play-services-measurement-impl-17.2.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c74052ae7974c0ee8796f3e2e75c9871\play-services-measurement-impl-17.2.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\35a5e779ed653b35806d12705df403ca\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\35a5e779ed653b35806d12705df403ca\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0138b38b808e5e566b8baac49d4b6853\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0138b38b808e5e566b8baac49d4b6853\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0138b38b808e5e566b8baac49d4b6853\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0138b38b808e5e566b8baac49d4b6853\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\20ed8b464100ff8a194455c322774a15\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\20ed8b464100ff8a194455c322774a15\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\20ed8b464100ff8a194455c322774a15\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\20ed8b464100ff8a194455c322774a15\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c74052ae7974c0ee8796f3e2e75c9871\play-services-measurement-impl-17.2.1\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c74052ae7974c0ee8796f3e2e75c9871\play-services-measurement-impl-17.2.1\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c74052ae7974c0ee8796f3e2e75c9871\play-services-measurement-impl-17.2.1\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c74052ae7974c0ee8796f3e2e75c9871\play-services-measurement-impl-17.2.1\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ad86c78dbdb0d7240ae1b28bc779e4f4\firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ad86c78dbdb0d7240ae1b28bc779e4f4\firebase-common-19.0.0\AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ad86c78dbdb0d7240ae1b28bc779e4f4\firebase-common-19.0.0\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ad86c78dbdb0d7240ae1b28bc779e4f4\firebase-common-19.0.0\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ad86c78dbdb0d7240ae1b28bc779e4f4\firebase-common-19.0.0\AndroidManifest.xml:13:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\44decf699cc282208bc8d1d3a89cfacd\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\44decf699cc282208bc8d1d3a89cfacd\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\44decf699cc282208bc8d1d3a89cfacd\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
