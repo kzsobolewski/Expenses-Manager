@@ -75,6 +75,18 @@
             android:name="com.nabinbhandari.android.permissions.PermissionsActivity"
             android:theme="@style/Permissions.TransparentTheme" />
 
+        <provider
+            android:name="androidx.camera.camera2.impl.Camera2Initializer"
+            android:authorities="com.example.expensesmanager.camerax-init"
+            android:exported="false"
+            android:initOrder="100"
+            android:multiprocess="true" />
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.example.expensesmanager.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+
         <receiver
             android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
             android:exported="true"
@@ -123,12 +135,6 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-
-        <provider
-            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="com.example.expensesmanager.lifecycle-process"
-            android:exported="false"
-            android:multiprocess="true" />
     </application>
 
 </manifest>

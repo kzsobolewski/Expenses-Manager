@@ -5,6 +5,7 @@ import android.app.Activity.RESULT_OK
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
+import android.graphics.Matrix
 import android.net.Uri
 import android.os.Bundle
 import android.os.Environment
@@ -13,13 +14,16 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat.checkSelfPermission
 import androidx.core.content.FileProvider
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
 import com.example.expensesmanager.R
+import com.google.firebase.ml.vision.FirebaseVision
+import com.google.firebase.ml.vision.common.FirebaseVisionImage
+import com.google.firebase.ml.vision.text.FirebaseVisionCloudTextRecognizerOptions
+import com.google.firebase.ml.vision.text.FirebaseVisionText
 import kotlinx.android.synthetic.main.fragment_reader.*
 import java.io.File
 import java.io.IOException
@@ -47,9 +51,40 @@ class ReaderFragment : Fragment() {
             if(checkForCameraPermission())
                 openCamera()
             else {
-                makeRequest()
+                makePermissionsRequest()
             }
         }
+    }
+
+    private fun rotateImage(source: Bitmap, angle: Float): Bitmap  {
+        val matrix = Matrix()
+        matrix.postRotate(angle)
+        return Bitmap.createBitmap(source, 0, 0, source.width, source.height,
+            matrix, true)
+    }
+
+    private fun firebaseTextRecognition(bitmap: Bitmap) {
+        val fbVisionImg = FirebaseVisionImage.fromBitmap(bitmap)
+//        val options = FirebaseVisionCloudTextRecognizerOptions.Builder()
+//            .setLanguageHints(listOf("pl", "cześć", "dzień dobry", "polski"))
+//            .build()
+        val detector =
+            FirebaseVision.getInstance().onDeviceTextRecognizer
+//            FirebaseVision.getInstance().getCloudTextRecognizer(options)
+
+        detector.processImage(fbVisionImg)
+            .addOnSuccessListener {
+                processRecognizedText(it)
+            }
+            .addOnFailureListener {
+                Log.d("TAGF", "Error during image processing.")
+                it.printStackTrace()
+            }
+    }
+
+    private fun processRecognizedText(fbVisionText: FirebaseVisionText) {
+        Log.d("TAGF", "recognised text is:" + fbVisionText.getli)
+
     }
 
     private val REQUEST_IMAGE_CAPTURE = 1
@@ -66,11 +101,6 @@ class ReaderFragment : Fragment() {
                 )
 
     private fun openCamera(){
-//        Intent(MediaStore.ACTION_IMAGE_CAPTURE).also { takePictureIntent ->
-//            takePictureIntent.resolveActivity(activity!!.packageManager)?.also {
-//                startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE)
-//            }
-//        }
         Intent(MediaStore.ACTION_IMAGE_CAPTURE).also { takePictureIntent ->
             // Ensure that there's a camera activity to handle the intent
             takePictureIntent.resolveActivity(activity!!.packageManager)?.also {
@@ -96,22 +126,14 @@ class ReaderFragment : Fragment() {
         }
     }
 
-    private fun makeRequest() {
-        ActivityCompat.requestPermissions(activity!!,
-            arrayOf(Manifest.permission.CAMERA), REQUEST_IMAGE_CAPTURE)
-        ActivityCompat.requestPermissions(activity!!,
-            arrayOf(Manifest.permission.WRITE_EXTERNAL_STORAGE), REQUEST_IMAGE_CAPTURE)
-        ActivityCompat.requestPermissions(activity!!,
-            arrayOf(Manifest.permission.READ_EXTERNAL_STORAGE), REQUEST_IMAGE_CAPTURE)
-    }
-
-
-//    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent) {
-//        if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
-//            val imageBitmap = data.extras.get("data") as Bitmap
-//            thumbnail.setImageBitmap(imageBitmap)
-//        }
-//    }
+    private fun makePermissionsRequest() =
+        ActivityCompat.requestPermissions(
+            activity!!,
+            arrayOf(
+                Manifest.permission.CAMERA,
+                Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                Manifest.permission.READ_EXTERNAL_STORAGE),
+            REQUEST_IMAGE_CAPTURE)
 
     var  currentPhotoPath: String = "0"
 
@@ -119,21 +141,23 @@ class ReaderFragment : Fragment() {
         super.onActivityResult(requestCode, resultCode, data)
         try{
             when(requestCode){
-                0 -> {
+                REQUEST_IMAGE_CAPTURE -> {
                     if(resultCode == RESULT_OK) {
                         val file = File(currentPhotoPath)
-                        val bitmap: Bitmap = MediaStore.Images.Media
+                        var bitmap: Bitmap = MediaStore.Images.Media
                             .getBitmap(context!!.contentResolver, Uri.fromFile(file))
-                            Log.d("TAG", "bitmap ready to use")
+                            Log.d("TAGF", "bitmap ready to use")
+                            bitmap = rotateImage(bitmap, 90f)
+                            thumbnail.setImageBitmap(bitmap)
+                            firebaseTextRecognition(bitmap)
                     } else
-                        Log.d("TAG", "KLOPS")
+                        Log.d("TAGF", "Something went wrong")
                 }
             }
         } catch (error:Exception) {
             error.printStackTrace()
         }
     }
-
 
     @Throws(IOException::class)
     private fun createImageFile(): File {
@@ -146,7 +170,7 @@ class ReaderFragment : Fragment() {
         ).apply {
             // Save a file: path for use with ACTION_VIEW intents
             currentPhotoPath = absolutePath
-            Log.d("TAG", "Saving image..")
+            Log.d("TAG", "Saving image...")
         }
     }
 

@@ -4,23 +4,6 @@
             "outputFile": "C:\\Users\\Sobol\\Desktop\\GIT\\Android\\ExpensesManager\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Sobol\\.gradle\\caches\\transforms-2\\files-2.1\\953748eb0ea198b15449a22958493b37\\core-1.0.2\\res\\values-zh-rTW\\values-zh-rTW.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "59",
-                        "startColumns": "4",
-                        "startOffsets": "5805",
-                        "endColumns": "100",
-                        "endOffsets": "5901"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Sobol\\.gradle\\caches\\transforms-2\\files-2.1\\20ed8b464100ff8a194455c322774a15\\play-services-base-17.0.0\\res\\values-zh-rTW\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -86,6 +69,23 @@
                         "startOffsets": "3697",
                         "endColumns": "161",
                         "endOffsets": "3854"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Sobol\\.gradle\\caches\\transforms-2\\files-2.1\\46987fcfc10f80cc3bd074038da3503f\\core-1.1.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "59",
+                        "startColumns": "4",
+                        "startOffsets": "5805",
+                        "endColumns": "100",
+                        "endOffsets": "5901"
                     }
                 },
                 {

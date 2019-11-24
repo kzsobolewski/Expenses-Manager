@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-39:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b7a31eae75b95e4bc17d446002809a98\lifecycle-viewmodel-ktx-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.room:room-ktx:2.2.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\d18d24e9f36c0ed882b7cf61d2d3da7f\room-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-adapters:3.5.2] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\1cdf9f6db4b928e6db251ca064ff290c\databinding-adapters-3.5.2\AndroidManifest.xml:17:1-24:12
@@ -26,8 +26,12 @@ MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\Sobol\.grad
 MERGED from [com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0a62d83450f5b121ca46a74b3c1e65eb\firebase-ml-vision-24.0.1\AndroidManifest.xml:2:1-18:12
 MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\3a3a757e970c593dd0f62ad2929dbcdb\firebase-ml-vision-image-label-model-19.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.nabinbhandari.android:permissions:3.8] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\e569139376d6f74ea769168f27feb6eb\permissions-3.8\AndroidManifest.xml:2:1-17:12
+MERGED from [androidx.camera:camera-camera2:1.0.0-alpha06] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\959958d28c05c141dc55b4ba5ad76d42\camera-camera2-1.0.0-alpha06\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.camera:camera-core:1.0.0-alpha06] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\26ec79495a8cd9c242b47dc735f14ec1\camera-core-1.0.0-alpha06\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-runtime-ktx:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\79ec25d65e7014eca43626f8f8f8eab5\navigation-runtime-ktx-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\3f815870b73edc906e2567fd2b5dfc0f\navigation-common-ktx-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\aaddc71baafc9fb1c0d5bf0e7bb7b101\lifecycle-service-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\570d41201d24c7b1c026e965e166f355\play-services-auth-base-17.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-vision:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\89b15682517b3b25817a23ea18c15903\play-services-vision-19.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-vision-image-label:18.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0f01e9fd2d8290809b9b72820da2836e\play-services-vision-image-label-18.0.1\AndroidManifest.xml:2:1-9:12
@@ -69,55 +73,53 @@ MERGED from [androidx.customview:customview:1.0.0] C:\Users\Sobol\.gradle\caches
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\09383dd428cb9f51c1855a1f48c3b450\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\88d27fc0fe7ec6b74b90e2e8c2827981\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\84baa766fd4802b8b566805abb88971a\navigation-common-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.0.2] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\953748eb0ea198b15449a22958493b37\core-1.0.2\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\aaddc71baafc9fb1c0d5bf0e7bb7b101\lifecycle-service-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\46987fcfc10f80cc3bd074038da3503f\core-1.1.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\85836670bacebe54e64252e3e50ec0c0\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\18c6367d99e2e3e9739295a4b49a20b3\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\f6acd495f24400c4143d155aa0c6052e\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b3f266603ed937ac0d4be6f4f3454d58\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\2da38faac1374e9a39762656762097fa\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\73c47b114d89e3c9106fbb7bac21723e\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\8e928db2692cc6ca70716e32b386c13b\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\2bcb64effa7c27799952f356561ddc62\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c66a2d3074e53b711ecfcfaecbe66182\core-runtime-2.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ede7db584550d19cb166d3fcccf7c07f\sqlite-framework-2.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\70d1055743dbefc9ff33ea05bc0173b6\sqlite-2.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\fc26547810568d7acfdf05c9529215a3\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\eee1a8a517e6d909ba81ed4a13a00699\lifecycle-livedata-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\80779a030cc03bc9fd68045c86dfa0eb\lifecycle-livedata-core-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\82bd7de49ab6947d9ef355d6652207d2\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\11519f21cd354f37022436df4a473822\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ba44278b016131893c299806c796abba\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\4ec69ea8c11f32a7b8424a702e1d86ca\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-38:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\7fedbf15278bd2ba7a9b4c6994695fe5\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-39:12
 	package
 		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-38:12
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-39:12
 		INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-38:12
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:1-39:12
 		INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:4:5-64
+ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:5:5-64
 	android:name
-		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:4:22-62
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:5:22-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:5:5-80
+ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:6:5-80
 	android:name
-		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:5:22-78
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:6:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:6:5-79
+ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:7:5-79
 	android:name
-		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:6:22-77
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:7:22-77
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:7:5-66
+ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:8:5-66
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0138b38b808e5e566b8baac49d4b6853\play-services-measurement-api-17.2.1\AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0138b38b808e5e566b8baac49d4b6853\play-services-measurement-api-17.2.1\AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:23:5-67
@@ -129,15 +131,15 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\35a5e779ed653b35806d12705df403ca\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\35a5e779ed653b35806d12705df403ca\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:7:22-64
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:8:22-64
 meta-data#com.google.firebase.ml.vision.DEPENDENCIES
-ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:9:5-11:31
+ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:10:5-12:31
 	android:value
-		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:11:9-28
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:12:9-28
 	android:name
-		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:10:9-66
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:11:9-66
 application
-ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:12:5-37:19
+ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:13:5-38:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b2869cfb54b6c62249691e80e7f3958a\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b2869cfb54b6c62249691e80e7f3958a\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\1dc225fedac4711e4382ee870cc5858d\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -156,6 +158,10 @@ MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:19.0.0] C:
 MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\3a3a757e970c593dd0f62ad2929dbcdb\firebase-ml-vision-image-label-model-19.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.nabinbhandari.android:permissions:3.8] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\e569139376d6f74ea769168f27feb6eb\permissions-3.8\AndroidManifest.xml:11:5-15:19
 MERGED from [com.nabinbhandari.android:permissions:3.8] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\e569139376d6f74ea769168f27feb6eb\permissions-3.8\AndroidManifest.xml:11:5-15:19
+MERGED from [androidx.camera:camera-camera2:1.0.0-alpha06] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\959958d28c05c141dc55b4ba5ad76d42\camera-camera2-1.0.0-alpha06\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.camera:camera-camera2:1.0.0-alpha06] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\959958d28c05c141dc55b4ba5ad76d42\camera-camera2-1.0.0-alpha06\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
 MERGED from [com.google.android.gms:play-services-vision:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\89b15682517b3b25817a23ea18c15903\play-services-vision-19.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-vision:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\89b15682517b3b25817a23ea18c15903\play-services-vision-19.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-vision-image-label:18.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0f01e9fd2d8290809b9b72820da2836e\play-services-vision-image-label-18.0.1\AndroidManifest.xml:7:5-20
@@ -196,56 +202,54 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\User
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\836003de7beacf9764efb13d0f8f7cb9\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\44decf699cc282208bc8d1d3a89cfacd\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\44decf699cc282208bc8d1d3a89cfacd\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.0.2] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\953748eb0ea198b15449a22958493b37\core-1.0.2\AndroidManifest.xml:22:5-89
-MERGED from [androidx.core:core:1.0.2] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\953748eb0ea198b15449a22958493b37\core-1.0.2\AndroidManifest.xml:22:5-89
-MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\18c6367d99e2e3e9739295a4b49a20b3\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\18c6367d99e2e3e9739295a4b49a20b3\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\46987fcfc10f80cc3bd074038da3503f\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\46987fcfc10f80cc3bd074038da3503f\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\f6acd495f24400c4143d155aa0c6052e\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\f6acd495f24400c4143d155aa0c6052e\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.0.2] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\953748eb0ea198b15449a22958493b37\core-1.0.2\AndroidManifest.xml:22:18-86
+		ADDED from [androidx.core:core:1.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\46987fcfc10f80cc3bd074038da3503f\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:18:9-35
 	android:label
-		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:16:9-41
 	android:roundIcon
-		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:16:9-54
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:17:9-54
 	android:icon
-		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:15:9-43
 	android:allowBackup
-		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:18:9-40
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:19:9-40
 activity#com.example.expensesmanager.MainActivity
-ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:19:9-25:20
+ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:20:9-26:20
 	android:name
-		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:20:13-41
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:21:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:21:13-24:29
+ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:22:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:22:17-69
+ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:24:27-74
 provider#androidx.core.content.FileProvider
-ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:27:9-35:20
+ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:28:9-36:20
 	android:grantUriPermissions
-		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:31:13-47
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:32:13-47
 	android:authorities
-		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:29:13-75
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:30:13-75
 	android:exported
-		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:30:13-37
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:28:13-62
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:29:13-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:32:13-34:64
+ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:33:13-35:64
 	android:resource
-		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:34:17-51
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:35:17-51
 	android:name
-		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:33:17-67
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:34:17-67
 uses-sdk
 INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml
@@ -294,10 +298,18 @@ MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:19.0.0] C:
 MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\3a3a757e970c593dd0f62ad2929dbcdb\firebase-ml-vision-image-label-model-19.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.nabinbhandari.android:permissions:3.8] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\e569139376d6f74ea769168f27feb6eb\permissions-3.8\AndroidManifest.xml:7:5-9:41
 MERGED from [com.nabinbhandari.android:permissions:3.8] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\e569139376d6f74ea769168f27feb6eb\permissions-3.8\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.camera:camera-camera2:1.0.0-alpha06] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\959958d28c05c141dc55b4ba5ad76d42\camera-camera2-1.0.0-alpha06\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-camera2:1.0.0-alpha06] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\959958d28c05c141dc55b4ba5ad76d42\camera-camera2-1.0.0-alpha06\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.0.0-alpha06] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\26ec79495a8cd9c242b47dc735f14ec1\camera-core-1.0.0-alpha06\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.0.0-alpha06] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\26ec79495a8cd9c242b47dc735f14ec1\camera-core-1.0.0-alpha06\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-runtime-ktx:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\79ec25d65e7014eca43626f8f8f8eab5\navigation-runtime-ktx-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-runtime-ktx:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\79ec25d65e7014eca43626f8f8f8eab5\navigation-runtime-ktx-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-common-ktx:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\3f815870b73edc906e2567fd2b5dfc0f\navigation-common-ktx-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-common-ktx:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\3f815870b73edc906e2567fd2b5dfc0f\navigation-common-ktx-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\aaddc71baafc9fb1c0d5bf0e7bb7b101\lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\aaddc71baafc9fb1c0d5bf0e7bb7b101\lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\570d41201d24c7b1c026e965e166f355\play-services-auth-base-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\570d41201d24c7b1c026e965e166f355\play-services-auth-base-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-vision:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\89b15682517b3b25817a23ea18c15903\play-services-vision-19.0.0\AndroidManifest.xml:5:5-44
@@ -380,34 +392,28 @@ MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\So
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\88d27fc0fe7ec6b74b90e2e8c2827981\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-common:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\84baa766fd4802b8b566805abb88971a\navigation-common-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-common:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\84baa766fd4802b8b566805abb88971a\navigation-common-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.2] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\953748eb0ea198b15449a22958493b37\core-1.0.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.2] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\953748eb0ea198b15449a22958493b37\core-1.0.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\aaddc71baafc9fb1c0d5bf0e7bb7b101\lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\aaddc71baafc9fb1c0d5bf0e7bb7b101\lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\46987fcfc10f80cc3bd074038da3503f\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\46987fcfc10f80cc3bd074038da3503f\core-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\85836670bacebe54e64252e3e50ec0c0\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\85836670bacebe54e64252e3e50ec0c0\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\18c6367d99e2e3e9739295a4b49a20b3\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\18c6367d99e2e3e9739295a4b49a20b3\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\f6acd495f24400c4143d155aa0c6052e\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\f6acd495f24400c4143d155aa0c6052e\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b3f266603ed937ac0d4be6f4f3454d58\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\b3f266603ed937ac0d4be6f4f3454d58\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\2da38faac1374e9a39762656762097fa\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\2da38faac1374e9a39762656762097fa\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\73c47b114d89e3c9106fbb7bac21723e\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\73c47b114d89e3c9106fbb7bac21723e\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\8e928db2692cc6ca70716e32b386c13b\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\8e928db2692cc6ca70716e32b386c13b\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\2bcb64effa7c27799952f356561ddc62\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\2bcb64effa7c27799952f356561ddc62\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c66a2d3074e53b711ecfcfaecbe66182\core-runtime-2.0.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\c66a2d3074e53b711ecfcfaecbe66182\core-runtime-2.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ede7db584550d19cb166d3fcccf7c07f\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ede7db584550d19cb166d3fcccf7c07f\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\70d1055743dbefc9ff33ea05bc0173b6\sqlite-2.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\70d1055743dbefc9ff33ea05bc0173b6\sqlite-2.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\fc26547810568d7acfdf05c9529215a3\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\fc26547810568d7acfdf05c9529215a3\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\eee1a8a517e6d909ba81ed4a13a00699\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\eee1a8a517e6d909ba81ed4a13a00699\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\80779a030cc03bc9fd68045c86dfa0eb\lifecycle-livedata-core-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\80779a030cc03bc9fd68045c86dfa0eb\lifecycle-livedata-core-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\82bd7de49ab6947d9ef355d6652207d2\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\82bd7de49ab6947d9ef355d6652207d2\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\11519f21cd354f37022436df4a473822\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
@@ -416,6 +422,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Sobol\.gradle\caches\transform
 MERGED from [androidx.print:print:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ba44278b016131893c299806c796abba\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\4ec69ea8c11f32a7b8424a702e1d86ca\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\4ec69ea8c11f32a7b8424a702e1d86ca\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\7fedbf15278bd2ba7a9b4c6994695fe5\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\7fedbf15278bd2ba7a9b4c6994695fe5\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -456,6 +464,28 @@ ADDED from [com.nabinbhandari.android:permissions:3.8] C:\Users\Sobol\.gradle\ca
 		ADDED from [com.nabinbhandari.android:permissions:3.8] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\e569139376d6f74ea769168f27feb6eb\permissions-3.8\AndroidManifest.xml:14:13-64
 	android:name
 		ADDED from [com.nabinbhandari.android:permissions:3.8] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\e569139376d6f74ea769168f27feb6eb\permissions-3.8\AndroidManifest.xml:13:13-85
+provider#androidx.camera.camera2.impl.Camera2Initializer
+ADDED from [androidx.camera:camera-camera2:1.0.0-alpha06] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\959958d28c05c141dc55b4ba5ad76d42\camera-camera2-1.0.0-alpha06\AndroidManifest.xml:25:9-30:43
+	android:authorities
+		ADDED from [androidx.camera:camera-camera2:1.0.0-alpha06] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\959958d28c05c141dc55b4ba5ad76d42\camera-camera2-1.0.0-alpha06\AndroidManifest.xml:27:13-64
+	android:multiprocess
+		ADDED from [androidx.camera:camera-camera2:1.0.0-alpha06] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\959958d28c05c141dc55b4ba5ad76d42\camera-camera2-1.0.0-alpha06\AndroidManifest.xml:30:13-40
+	android:exported
+		ADDED from [androidx.camera:camera-camera2:1.0.0-alpha06] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\959958d28c05c141dc55b4ba5ad76d42\camera-camera2-1.0.0-alpha06\AndroidManifest.xml:28:13-37
+	android:initOrder
+		ADDED from [androidx.camera:camera-camera2:1.0.0-alpha06] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\959958d28c05c141dc55b4ba5ad76d42\camera-camera2-1.0.0-alpha06\AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.0.0-alpha06] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\959958d28c05c141dc55b4ba5ad76d42\camera-camera2-1.0.0-alpha06\AndroidManifest.xml:26:13-75
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
 meta-data#com.google.firebase.components:com.google.firebase.ml.common.CommonComponentRegistrar
 ADDED from [com.google.firebase:firebase-ml-common:22.0.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\379a95831393e2d9e3a815241b2b8e02\firebase-ml-common-22.0.1\AndroidManifest.xml:11:13-13:85
 	android:value
@@ -590,13 +620,3 @@ ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sobol
 		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\44decf699cc282208bc8d1d3a89cfacd\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\44decf699cc282208bc8d1d3a89cfacd\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-	android:authorities
-		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-	android:multiprocess
-		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-	android:exported
-		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79

@@ -11,24 +11,24 @@
 9-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.CAMERA" />
-11-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:4:5-64
-11-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:4:22-62
+11-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:5:5-64
+11-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:5:22-62
 12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-12-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:5:5-80
-12-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:5:22-78
+12-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:6:22-78
 13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-13-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:6:5-79
-13-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:6:22-77
+13-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:7:22-77
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:7:5-66
-14-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:7:22-64
+14-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:8:5-66
+14-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:8:22-64
 15    <!-- Firebase ML Meta Requires -->
 16    <meta-data
-16-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:9:5-11:31
+16-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:10:5-12:31
 17        android:name="com.google.firebase.ml.vision.DEPENDENCIES"
-17-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:10:9-66
+17-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:11:9-66
 18        android:value="ocr" />
-18-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:11:9-28
+18-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:12:9-28
 19
 20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 20-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\0138b38b808e5e566b8baac49d4b6853\play-services-measurement-api-17.2.1\AndroidManifest.xml:23:5-79
@@ -44,54 +44,54 @@
 23-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
 24
 25    <application
-25-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:12:5-37:19
+25-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:13:5-38:19
 26        android:allowBackup="true"
-26-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:13:9-35
+26-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:14:9-35
 27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-27-->[androidx.core:core:1.0.2] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\953748eb0ea198b15449a22958493b37\core-1.0.2\AndroidManifest.xml:22:18-86
+27-->[androidx.core:core:1.1.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\46987fcfc10f80cc3bd074038da3503f\core-1.1.0\AndroidManifest.xml:24:18-86
 28        android:debuggable="true"
 29        android:icon="@mipmap/ic_launcher"
-29-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:14:9-43
+29-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:15:9-43
 30        android:label="@string/app_name"
-30-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:15:9-41
+30-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:16:9-41
 31        android:roundIcon="@mipmap/ic_launcher_round"
-31-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:16:9-54
+31-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:17:9-54
 32        android:supportsRtl="true"
-32-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:17:9-35
+32-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:18:9-35
 33        android:testOnly="true"
 34        android:theme="@style/AppTheme" >
-34-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:18:9-40
+34-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:19:9-40
 35        <activity android:name="com.example.expensesmanager.MainActivity" >
-35-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:19:9-25:20
-35-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:20:13-41
+35-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:20:9-26:20
+35-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:21:13-41
 36            <intent-filter>
-36-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:21:13-24:29
+36-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:22:13-25:29
 37                <action android:name="android.intent.action.MAIN" />
-37-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:22:17-69
-37-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:22:25-66
+37-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:23:17-69
+37-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:23:25-66
 38
 39                <category android:name="android.intent.category.LAUNCHER" />
-39-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:23:17-77
-39-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:23:27-74
+39-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:24:17-77
+39-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:24:27-74
 40            </intent-filter>
 41        </activity>
 42
 43        <provider
-43-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:27:9-35:20
+43-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:28:9-36:20
 44            android:name="androidx.core.content.FileProvider"
-44-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:28:13-62
+44-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:29:13-62
 45            android:authorities="com.example.expensesmanager.fileprovider"
-45-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:29:13-75
+45-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:30:13-75
 46            android:exported="false"
-46-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:30:13-37
+46-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:31:13-37
 47            android:grantUriPermissions="true" >
-47-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:31:13-47
+47-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:32:13-47
 48            <meta-data
-48-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:32:13-34:64
+48-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:33:13-35:64
 49                android:name="android.support.FILE_PROVIDER_PATHS"
-49-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:33:17-67
+49-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:34:17-67
 50                android:resource="@xml/file_paths" />
-50-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:34:17-51
+50-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:35:17-51
 51        </provider>
 52
 53        <service
@@ -139,105 +139,117 @@
 75            android:theme="@style/Permissions.TransparentTheme" />
 75-->[com.nabinbhandari.android:permissions:3.8] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\e569139376d6f74ea769168f27feb6eb\permissions-3.8\AndroidManifest.xml:14:13-64
 76
-77        <receiver
-77-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
-78            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-78-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
-79            android:exported="true"
-79-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
-80            android:permission="com.google.android.c2dm.permission.SEND" >
-80-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
-81            <intent-filter>
-81-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
-82                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-82-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
-82-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
-83            </intent-filter>
-84        </receiver>
-85
-86        <activity
-86-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\20ed8b464100ff8a194455c322774a15\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-87            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-87-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\20ed8b464100ff8a194455c322774a15\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-88            android:exported="false"
-88-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\20ed8b464100ff8a194455c322774a15\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-89            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-89-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\20ed8b464100ff8a194455c322774a15\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-90
-91        <receiver
-91-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
-92            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-92-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
-93            android:enabled="true"
-93-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
-94            android:exported="false" >
-94-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
-95        </receiver>
-96        <receiver
-96-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
-97            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-97-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
-98            android:enabled="true"
-98-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
-99            android:exported="true"
-99-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
-100            android:permission="android.permission.INSTALL_PACKAGES" >
-100-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
-101            <intent-filter>
-101-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
-102                <action android:name="com.android.vending.INSTALL_REFERRER" />
-102-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
-102-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
-103            </intent-filter>
-104        </receiver>
-105
-106        <service
-106-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
-107            android:name="com.google.android.gms.measurement.AppMeasurementService"
-107-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
-108            android:enabled="true"
-108-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
-109            android:exported="false" />
-109-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
-110        <service
-110-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
-111            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-111-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
-112            android:enabled="true"
-112-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
-113            android:exported="false"
-113-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
-114            android:permission="android.permission.BIND_JOB_SERVICE" />
-114-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
-115
-116        <provider
-116-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ad86c78dbdb0d7240ae1b28bc779e4f4\firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
-117            android:name="com.google.firebase.provider.FirebaseInitProvider"
-117-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ad86c78dbdb0d7240ae1b28bc779e4f4\firebase-common-19.0.0\AndroidManifest.xml:13:13-77
-118            android:authorities="com.example.expensesmanager.firebaseinitprovider"
-118-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ad86c78dbdb0d7240ae1b28bc779e4f4\firebase-common-19.0.0\AndroidManifest.xml:14:13-72
-119            android:exported="false"
-119-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ad86c78dbdb0d7240ae1b28bc779e4f4\firebase-common-19.0.0\AndroidManifest.xml:15:13-37
-120            android:initOrder="100" />
-120-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ad86c78dbdb0d7240ae1b28bc779e4f4\firebase-common-19.0.0\AndroidManifest.xml:16:13-36
-121
-122        <meta-data
-122-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\44decf699cc282208bc8d1d3a89cfacd\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-123            android:name="com.google.android.gms.version"
-123-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\44decf699cc282208bc8d1d3a89cfacd\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-124            android:value="@integer/google_play_services_version" />
-124-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\44decf699cc282208bc8d1d3a89cfacd\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-125
-126        <provider
-126-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-127            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-127-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-128            android:authorities="com.example.expensesmanager.lifecycle-process"
-128-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-129            android:exported="false"
-129-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-130            android:multiprocess="true" />
-130-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-131    </application>
-132
-133</manifest>
+77        <provider
+77-->[androidx.camera:camera-camera2:1.0.0-alpha06] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\959958d28c05c141dc55b4ba5ad76d42\camera-camera2-1.0.0-alpha06\AndroidManifest.xml:25:9-30:43
+78            android:name="androidx.camera.camera2.impl.Camera2Initializer"
+78-->[androidx.camera:camera-camera2:1.0.0-alpha06] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\959958d28c05c141dc55b4ba5ad76d42\camera-camera2-1.0.0-alpha06\AndroidManifest.xml:26:13-75
+79            android:authorities="com.example.expensesmanager.camerax-init"
+79-->[androidx.camera:camera-camera2:1.0.0-alpha06] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\959958d28c05c141dc55b4ba5ad76d42\camera-camera2-1.0.0-alpha06\AndroidManifest.xml:27:13-64
+80            android:exported="false"
+80-->[androidx.camera:camera-camera2:1.0.0-alpha06] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\959958d28c05c141dc55b4ba5ad76d42\camera-camera2-1.0.0-alpha06\AndroidManifest.xml:28:13-37
+81            android:initOrder="100"
+81-->[androidx.camera:camera-camera2:1.0.0-alpha06] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\959958d28c05c141dc55b4ba5ad76d42\camera-camera2-1.0.0-alpha06\AndroidManifest.xml:29:13-36
+82            android:multiprocess="true" />
+82-->[androidx.camera:camera-camera2:1.0.0-alpha06] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\959958d28c05c141dc55b4ba5ad76d42\camera-camera2-1.0.0-alpha06\AndroidManifest.xml:30:13-40
+83        <provider
+83-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+84            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+84-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+85            android:authorities="com.example.expensesmanager.lifecycle-process"
+85-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+86            android:exported="false"
+86-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+87            android:multiprocess="true" />
+87-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\83685b9ba50254cabfacfaf077b8b327\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+88
+89        <receiver
+89-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+90            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+90-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+91            android:exported="true"
+91-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+92            android:permission="com.google.android.c2dm.permission.SEND" >
+92-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+93            <intent-filter>
+93-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+94                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+94-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
+94-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\9d1fa028b53a7999932c69aefcb6ffb9\firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
+95            </intent-filter>
+96        </receiver>
+97
+98        <activity
+98-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\20ed8b464100ff8a194455c322774a15\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+99            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+99-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\20ed8b464100ff8a194455c322774a15\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+100            android:exported="false"
+100-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\20ed8b464100ff8a194455c322774a15\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+101            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+101-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\20ed8b464100ff8a194455c322774a15\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+102
+103        <receiver
+103-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
+104            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+104-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
+105            android:enabled="true"
+105-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
+106            android:exported="false" >
+106-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
+107        </receiver>
+108        <receiver
+108-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
+109            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+109-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
+110            android:enabled="true"
+110-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
+111            android:exported="true"
+111-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
+112            android:permission="android.permission.INSTALL_PACKAGES" >
+112-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
+113            <intent-filter>
+113-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
+114                <action android:name="com.android.vending.INSTALL_REFERRER" />
+114-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
+114-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
+115            </intent-filter>
+116        </receiver>
+117
+118        <service
+118-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
+119            android:name="com.google.android.gms.measurement.AppMeasurementService"
+119-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
+120            android:enabled="true"
+120-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
+121            android:exported="false" />
+121-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
+122        <service
+122-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
+123            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+123-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
+124            android:enabled="true"
+124-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
+125            android:exported="false"
+125-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
+126            android:permission="android.permission.BIND_JOB_SERVICE" />
+126-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\6036a81e163bd7e87fe8d1bc051971a4\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
+127
+128        <provider
+128-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ad86c78dbdb0d7240ae1b28bc779e4f4\firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
+129            android:name="com.google.firebase.provider.FirebaseInitProvider"
+129-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ad86c78dbdb0d7240ae1b28bc779e4f4\firebase-common-19.0.0\AndroidManifest.xml:13:13-77
+130            android:authorities="com.example.expensesmanager.firebaseinitprovider"
+130-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ad86c78dbdb0d7240ae1b28bc779e4f4\firebase-common-19.0.0\AndroidManifest.xml:14:13-72
+131            android:exported="false"
+131-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ad86c78dbdb0d7240ae1b28bc779e4f4\firebase-common-19.0.0\AndroidManifest.xml:15:13-37
+132            android:initOrder="100" />
+132-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\ad86c78dbdb0d7240ae1b28bc779e4f4\firebase-common-19.0.0\AndroidManifest.xml:16:13-36
+133
+134        <meta-data
+134-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\44decf699cc282208bc8d1d3a89cfacd\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+135            android:name="com.google.android.gms.version"
+135-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\44decf699cc282208bc8d1d3a89cfacd\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+136            android:value="@integer/google_play_services_version" />
+136-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sobol\.gradle\caches\transforms-2\files-2.1\44decf699cc282208bc8d1d3a89cfacd\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+137    </application>
+138
+139</manifest>

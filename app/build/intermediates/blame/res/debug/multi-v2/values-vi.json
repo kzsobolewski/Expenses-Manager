@@ -21,23 +21,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Sobol\\.gradle\\caches\\transforms-2\\files-2.1\\953748eb0ea198b15449a22958493b37\\core-1.0.2\\res\\values-vi\\values-vi.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "59",
-                        "startColumns": "4",
-                        "startOffsets": "6510",
-                        "endColumns": "100",
-                        "endOffsets": "6606"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Sobol\\.gradle\\caches\\transforms-2\\files-2.1\\71f28666745840745a211322ededbf9e\\jetified-android-image-cropper-2.7.0\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
@@ -69,6 +52,23 @@
                         "startOffsets": "6134,6242",
                         "endColumns": "107,112",
                         "endOffsets": "6237,6350"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Sobol\\.gradle\\caches\\transforms-2\\files-2.1\\46987fcfc10f80cc3bd074038da3503f\\core-1.1.0\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "59",
+                        "startColumns": "4",
+                        "startOffsets": "6510",
+                        "endColumns": "100",
+                        "endOffsets": "6606"
                     }
                 },
                 {
