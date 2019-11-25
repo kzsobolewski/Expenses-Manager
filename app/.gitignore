@@ -1,2 +1,11 @@
 /* AUTO-
 /*.json
+
+*.apk
+*.aar
+*.zip
+google-services.json
+*.tflite
+.project
+.settings
+.classpath
