@@ -1121,6 +1121,7 @@ drawable ic_add_black_24dp
 drawable ic_camera_alt_black_24dp
 drawable ic_dashboard_black_24dp
 drawable ic_home_black_24dp
+drawable ic_image_black_24dp
 drawable ic_insert_chart_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -1225,9 +1226,9 @@ id adjust_width
 id alertTitle
 id all
 id always
+id amount_editText_reader
 id async
 id auto
-id balance_text
 id barrier
 id beginning
 id blocking
@@ -1236,9 +1237,9 @@ id bottomNavBarFragment
 id bottomNavFragment
 id bottom_navigation
 id buttonPanel
-id buttonocr
 id cancel_action
 id category_chart
+id category_editText_reader
 id center
 id centerCrop
 id centerInside
@@ -1250,6 +1251,7 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id company_editText_reader
 id container
 id content
 id contentPanel
@@ -1362,9 +1364,11 @@ id recyclerview_item_value
 id right
 id right_icon
 id right_side
+id save_button_reader
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
+id scan_button_reader
 id screen
 id scroll
 id scrollIndicatorDown
@@ -1425,7 +1429,7 @@ id text_input_password_toggle
 id textinput_counter
 id textinput_error
 id textinput_helper_text
-id thumbnail
+id thumbnail_image
 id time
 id title
 id titleDividerNoCustom

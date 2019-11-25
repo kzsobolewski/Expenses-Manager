@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/navigation_charts"
-        android:name="com.example.expensesmanager.ui.dashboard.ChartsFragment"
+        android:name="com.example.expensesmanager.ui.charts.ChartsFragment"
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_charts" >
         <action
@@ -27,7 +27,7 @@
 
     <fragment
         android:id="@+id/navigation_reader"
-        android:name="com.example.expensesmanager.ui.notifications.ReaderFragment"
+        android:name="com.example.expensesmanager.ui.reader.ReaderFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_reader" />
 </navigation>

@@ -31,12 +31,6 @@
             android:layout_height="wrap_content"
             android:text="Earned: 100 PLN" />
 
-        <TextView
-            android:id="@+id/balance_text"
-            style="@style/charts_balance_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Balance: 0 PLN" />
     </LinearLayout>
 
     <com.github.mikephil.charting.charts.PieChart

@@ -35,12 +35,12 @@ class HomeFragment : Fragment() {
         recyclerView.layoutManager = LinearLayoutManager(recyclerView.context)
         adapter.onItemClick = {expense ->
             AlertDialog.Builder(activity).apply {
-                setTitle("Are you want to delete this entry?")
-                setMessage(expense.amount.toString() + expense.currency + expense.time)
+                setTitle(expense.company)
+                setMessage(expense.amount.toString() + " " + expense.currency)
                 setPositiveButton("DELETE"){_,_ ->
                     homeViewModel.delete(expense)
                 }
-                setNeutralButton("Cancel"){_,_ ->}
+                setNeutralButton("Exit"){_,_ ->}
             }.create().show()
             true
         }
