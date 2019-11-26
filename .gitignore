@@ -12,3 +12,12 @@
 /captures
 .externalNativeBuild
 .cxx
+
+*.apk
+*.aar
+*.zip
+google-services.json
+*.tflite
+.project
+.settings
+.classpath
