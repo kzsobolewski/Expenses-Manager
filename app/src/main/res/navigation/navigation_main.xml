@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/addEntryFragment"
-        android:name="com.example.expensesmanager.entry.AddEntryFragment"
+        android:name="com.example.expensesmanager.fragments.AddEntryFragment"
         android:label="AddEntryFragment" >
         <action
             android:id="@+id/action_addEntryFragment_to_bottomNavBarFragment"
@@ -18,7 +18,7 @@
     </fragment>
     <fragment
         android:id="@+id/bottomNavBarFragment"
-        android:name="com.example.expensesmanager.BottomNavBarFragment"
+        android:name="com.example.expensesmanager.fragments.BottomNavBarFragment"
         android:label="BottomNavBarFragment" >
         <action
             android:id="@+id/action_bottomNavBarFragment_to_addEntryFragment"

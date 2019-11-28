@@ -61,9 +61,9 @@
 33        android:testOnly="true"
 34        android:theme="@style/AppTheme" >
 34-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:19:9-40
-35        <activity android:name="com.example.expensesmanager.MainActivity" >
+35        <activity android:name="com.example.expensesmanager.activities.MainActivity" >
 35-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:20:9-26:20
-35-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:21:13-41
+35-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:21:13-52
 36            <intent-filter>
 36-->C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:22:13-25:29
 37                <action android:name="android.intent.action.MAIN" />

@@ -19,10 +19,6 @@ anim nav_default_enter_anim
 anim nav_default_exit_anim
 anim nav_default_pop_enter_anim
 anim nav_default_pop_exit_anim
-anim slide_in_left
-anim slide_in_right
-anim slide_out_left
-anim slide_out_right
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -1119,8 +1115,6 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_add_black_24dp
 drawable ic_camera_alt_black_24dp
-drawable ic_dashboard_black_24dp
-drawable ic_home_black_24dp
 drawable ic_image_black_24dp
 drawable ic_insert_chart_black_24dp
 drawable ic_launcher_background
@@ -1129,7 +1123,6 @@ drawable ic_monetization_on_black_24dp
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
-drawable ic_notifications_black_24dp
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1501,8 +1494,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_main_page
-layout activity_test
+layout activity_main
 layout crop_image_activity
 layout crop_image_view
 layout custom_dialog

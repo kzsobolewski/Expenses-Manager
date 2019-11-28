@@ -220,10 +220,10 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\So
 		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:14:9-35
 	android:theme
 		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:19:9-40
-activity#com.example.expensesmanager.MainActivity
+activity#com.example.expensesmanager.activities.MainActivity
 ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:20:9-26:20
 	android:name
-		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:21:13-41
+		ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:21:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\Sobol\Desktop\GIT\Android\ExpensesManager\app\src\main\AndroidManifest.xml:22:13-25:29
 action#android.intent.action.MAIN
