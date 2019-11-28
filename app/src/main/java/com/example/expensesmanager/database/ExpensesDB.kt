@@ -5,7 +5,7 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
-import com.example.expensesmanager.utils.TiviTypeConverters
+import com.example.expensesmanager.utils.DateTimeConverter
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -55,7 +55,7 @@ abstract class ExpensesDB : RoomDatabase(){
 
         suspend fun populateDatabase(expenseDao: ExpenseDao) {
             expenseDao.deleteAll()
-            expenseDao.insert(Expense(amount =  60f, spent = true, time = TiviTypeConverters.fromOffsetDateTime(
+            expenseDao.insert(Expense(amount =  60f, spent = true, time = DateTimeConverter.fromOffsetDateTime(
                 OffsetDateTime.now())))
         }
     }

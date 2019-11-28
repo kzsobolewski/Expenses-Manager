@@ -4,7 +4,7 @@ import androidx.room.TypeConverter
 import java.time.OffsetDateTime
 import java.time.format.DateTimeFormatter
 
-object TiviTypeConverters {
+object DateTimeConverter {
     private val formatter = DateTimeFormatter.ISO_OFFSET_DATE_TIME
 
     @TypeConverter

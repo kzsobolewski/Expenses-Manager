@@ -2,7 +2,7 @@ package com.example.expensesmanager.database
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.example.expensesmanager.utils.TiviTypeConverters
+import com.example.expensesmanager.utils.DateTimeConverter
 import java.time.OffsetDateTime
 
 
@@ -14,7 +14,7 @@ data class Expense(
     val company: String? = null,
     val category: String? = null,
     val description: String? = null,
-    val time: String? = TiviTypeConverters.fromOffsetDateTime(OffsetDateTime.now()),
+    val time: String? = DateTimeConverter.fromOffsetDateTime(OffsetDateTime.now()),
 
     @PrimaryKey(autoGenerate = true)
     val id: Int = 0

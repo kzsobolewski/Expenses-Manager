@@ -41,7 +41,7 @@ class AddEntryFragment : Fragment(){
                     Expense(
                         amount = addEntry_amount.text.toString().toFloat(),
                         spent = addEntry_spent.isChecked,
-//                        time = TiviTypeConverters.fromOffsetDateTime(OffsetDateTime.now()),
+//                        time = DateTimeConverter.fromOffsetDateTime(OffsetDateTime.now()),
                         company = addEntry_company.text?.toString(),
                         category = addEntry_category.text?.toString(),
                         currency = addEntry_currency.text?.toString() ?: "PLN",

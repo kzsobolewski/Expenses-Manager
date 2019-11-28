@@ -9,7 +9,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.expensesmanager.R
 import com.example.expensesmanager.database.Expense
-import com.example.expensesmanager.utils.TiviTypeConverters
+import com.example.expensesmanager.utils.DateTimeConverter
 
 class ExpenseListAdapter internal constructor(
     context: Context
@@ -29,7 +29,7 @@ class ExpenseListAdapter internal constructor(
         holder.amountItemView.text = String.format("%.2f %s", current.amount, current.currency)
         if (current.spent)
             holder.amountItemView.text = "- " + holder.amountItemView.text
-        val dateTime = TiviTypeConverters.toOffsetDateTime(current.time)
+        val dateTime = DateTimeConverter.toOffsetDateTime(current.time)
         holder.timeItemView.text = dateTime?.toLocalDate().toString()
 
         holder.amountItemView.setTextColor(
