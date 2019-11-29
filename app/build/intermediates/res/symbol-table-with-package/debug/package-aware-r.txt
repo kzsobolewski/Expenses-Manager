@@ -1117,8 +1117,6 @@ drawable ic_add_black_24dp
 drawable ic_camera_alt_black_24dp
 drawable ic_image_black_24dp
 drawable ic_insert_chart_black_24dp
-drawable ic_launcher_background
-drawable ic_launcher_foreground
 drawable ic_monetization_on_black_24dp
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
@@ -1460,7 +1458,6 @@ integer mtrl_btn_anim_duration_ms
 integer mtrl_chip_anim_duration
 integer mtrl_tab_indicator_anim_duration_ms
 integer show_password_duration
-integer sliding_time
 integer status_bar_notification_info_maxnum
 interpolator mtrl_fast_out_linear_in
 interpolator mtrl_fast_out_slow_in

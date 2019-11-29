@@ -18,7 +18,7 @@
     </fragment>
     <fragment
         android:id="@+id/bottomNavBarFragment"
-        android:name="com.example.expensesmanager.fragments.BottomNavBarFragment"
+        android:name="com.example.expensesmanager.fragments.BottomNavFragment"
         android:label="BottomNavBarFragment" >
         <action
             android:id="@+id/action_bottomNavBarFragment_to_addEntryFragment"

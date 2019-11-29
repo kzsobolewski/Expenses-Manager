@@ -10,7 +10,7 @@ import androidx.navigation.ui.setupWithNavController
 import com.example.expensesmanager.R
 import kotlinx.android.synthetic.main.fragment_bottom_nav_bar.*
 
-class BottomNavBarFragment : Fragment() {
+class BottomNavFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
