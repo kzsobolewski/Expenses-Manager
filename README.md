@@ -6,5 +6,5 @@ Data is stored locally with the help of Room Persistance Library. For displaying
 
 ## Screenshots 
 
-<img src = "ss/1.png" width="300"> <img src = "ss/2.png" width="300"> <img src = "ss/3" width="300">
+<img src = "ss/1.png" width="200"> <img src = "ss/2.png" width="200"> <img src = "ss/3.png" width="200">
 
